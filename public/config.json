@@ -1,0 +1,21 @@
+{
+    "mqtt": {
+        "host": "192.168.179.3",
+        "port": "1883"
+    },
+    "RestAPI": {
+        "host": "raspi-T32CD.local",
+        "_host": "192.168.11.3",
+        "port": "8000"
+    },
+    "camera": {
+        "width": 2304,
+        "height": 1296,
+        "scale": 0.25,
+        "focus_length": "10.12768268585205",
+        "exposure": 60000,
+        "AnalogueGain": 1.0
+    },
+    "frame": 0,
+    "bench": "T32CD"
+}

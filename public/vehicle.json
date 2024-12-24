@@ -1,0 +1,183 @@
+{
+    "name": "ROGUE",
+    "path": "/ros2_ws/src/camera_system/templates",
+    "threshold": 0.80,
+    "gray": true,
+    "offset": 50,
+    "icon": [
+        {
+            "name": "check_engine",
+            "path": "/ros2_ws/src/camera_system/templates/check_engine.png",
+            "type": "bool",
+            "shape": "box",
+            "top_left": {
+                "x": 425,
+                "y": 751
+            },
+            "bottom_right": {
+                "x": 517,
+                "y": 819
+            }
+        },
+        {
+            "name": "OIL",
+            "path": "/ros2_ws/src/camera_system/templates/OIL.png",
+            "type": "bool",
+            "shape": "box",
+            "top_left": {
+                "x": 277,
+                "y": 695
+            },
+            "bottom_right": {
+                "x": 371,
+                "y": 755
+            }
+        },
+        {
+            "name": "ALERT",
+            "path": "/ros2_ws/src/camera_system/templates/ALERT.png",
+            "type": "bool",
+            "shape": "box",
+            "top_left": {
+                "x": 1175,
+                "y": 401
+            },
+            "bottom_right": {
+                "x": 1249,
+                "y": 491
+            }
+        }
+    ],
+    "meter": [
+        {
+            "name": "temp",
+            "path": "/ros2_ws/src/camera_system/templates/temp.png",
+            "type": "float",
+            "shape": "circle",
+            "center": {
+                "x": 453,
+                "y": 809
+            },
+            "radius": 200,
+            "ratio": 0.95,
+            "circumference": [
+                {
+                    "position": {
+                        "x": 355,
+                        "y": 873
+                    },
+                    "value": 0
+                },
+                {
+                    "position": {
+                        "x": 463,
+                        "y": 903
+                    },
+                    "value": 0.5
+                },
+                {
+                    "position": {
+                        "x": 553,
+                        "y": 875
+                    },
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "name": "fuel",
+            "path": "/home/pi/work/US4/fastapi/vehicle/ROGUE/image/fuel.png",
+            "type": "float",
+            "shape": "bar",
+            "top_left": {
+                "x": 1175,
+                "y": 401
+            },
+            "bottom_right": {
+                "x": 1249,
+                "y": 491
+            },
+            "circumference": [
+                {
+                    "position": {
+                        "x": 1773,
+                        "y": 571
+                    },
+                    "value": 0
+                },
+                {
+                    "position": {
+                        "x": 1869,
+                        "y": 571
+                    },
+                    "value": 0.5
+                },
+                {
+                    "position": {
+                        "x": 1965,
+                        "y": 571
+                    },
+                    "value": 1.0
+                }
+            ]
+        },
+        {
+            "name": "taco",
+            "path": "/ros2_ws/src/camera_system/templates/taco.png",
+            "type": "float",
+            "shape": "circle",
+            "center": {
+                "x": 425,
+                "y": 645
+            },
+            "radius": 335,
+            "ratio": 0.95,
+            "circumference": [
+                {
+                    "position": {
+                        "x": 195,
+                        "y": 827
+                    },
+                    "value": 0
+                },
+                {
+                    "position": {
+                        "x": 139,
+                        "y": 643
+                    },
+                    "value": 2
+                },
+                {
+                    "position": {
+                        "x": 195,
+                        "y": 465
+                    },
+                    "value": 3
+                },
+                {
+                    "position": {
+                        "x": 347,
+                        "y": 349
+                    },
+                    "value": 4
+                }
+            ]
+        }
+    ],
+    "ocr": [
+        {
+            "name": "odo",
+            "type": "int",
+            "shape": "box",
+            "top_left": {
+                "x": 1356,
+                "y": 1033
+            },
+            "bottom_right": {
+                "x": 1439,
+                "y": 1089
+            }
+        }
+    ]
+}
+
